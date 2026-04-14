@@ -9,6 +9,8 @@ allowed-tools: Bash(*), Read, Write, Edit, Grep, Glob, Web, Skill
 
 Use this skill when the user wants the iDeer daily-paper workflow but does not want the repo to call its own LLM API. The chatbot should do the reading, scoring, grouping, report writing, and idea generation directly in the current conversation.
 
+For a Codex-user walkthrough, see [references/codex-tutorial.md](references/codex-tutorial.md).
+
 ## Core rule
 
 Keep as much of the original iDeer workflow as possible:
@@ -131,6 +133,8 @@ python skills/ideer-daily-paper-chatbot/scripts/render_chatbot_artifacts.py \
 ```
 
 This script should render `report.html` and `digest_email.html` from chatbot-written markdown/json outputs inside the chosen artifact directory.
+
+For step-by-step Codex usage examples, read [references/codex-tutorial.md](references/codex-tutorial.md).
 
 ### Step 5: Email behavior
 
